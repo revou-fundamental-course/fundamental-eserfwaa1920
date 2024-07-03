@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portofolio Shofwa</title>
+    <link rel="stylesheet" href="css/style.css"
 </head>
-<body>
+
+
+<body class="body">
+    <!-- Ini Header Nav -->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+
+
+        <nav>
+            <a>Home</a>
+            <a>Our Profile</a>
+            <a>Blog</a>
+            <a>Message Us</a>
+        </nav>
+    </header>
+    <!-- Akhir Header Nav-->
+    <hr /> 
     
+    <main>
+
+    <!-- Ini Home Content-->
+     <section>
+
+        <header>
+            <h1> Hi User, Welcome to MyWebsite </h1>
+        </header>
+
+        <article>
+            <p> Ini adalah website percobaan pertama saya</p>
+        </article>
+
+        <div class="Banner-container"></div>
+            <div class="banner-item"></div>
+     </section>
+
+     <hr />
+
+    <!-- Ini Our Profile Content-->
+     <section>
+        <header>
+            <h1>Our Profile</h1>
+        </header>
+
+        <article class="profile-content">
+            <div class="profile-item">
+                <div class="profile-icon profil-1"></div>
+                <p>Instagram</p>
+            </div>
+           
+            <div class="profile-item">
+                <div class="profile-icon profil-2"></div>
+                <p> Whatsapp</p>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon profil-3"></div>
+                <p> facebook</p>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon profil-4"></div>
+                <p> Telegram</p>
+            </div>
+            <div>
+
+            </div>
+        </article>
+
+        <fieldset>
+            <legend>About Me</legend>
+            <article>
+                <p>Hi! Let me introduce myself, my name is Shofwa, my other name is Kenziea. I am a graduate student majoring in TKJ, now I am continuing my studies but in a different field. I'm learning to code, to develop my interests. This is my first practice.. Thank you..
+                Greetings from me.</p>
+            </article>
+        </fieldset>
+     </section>
+
+     <hr />
+
+    <!-- Ini Blog Content-->
+    <section>
+        <header>
+            <h1>Blog</h1>
+        </header>
+        <fieldset>
+            <legend>My Portofolio</legend>
+            <article>
+                    <p>None.. belum sempet bikin konten,</p>
+            </article>
+        </fieldset>
+     </section>
+     <!-- Akhir Portofolio Content-->
+     <hr />
+
+    <!-- Ini Message Us Content-->
+    <section>
+        <header>
+            <h1>Message Us</h1>
+        </header>
+
+        <article style="display: flex; justify-content: left;">
+        <from>
+            <fieldset>
+                <legend>Contact</legend>
+            <table>
+                <tr>
+                    <td><label for="username">Name   :</label></td>
+                    <td><input type="text" id="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender   :</label></td>
+                    <td><label><input type="radio" name="Gender" id="gender" /> Male</label>
+                        <label><input type="radio" name="Gender" id="gender" /> Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="notes">Notes     :</label></td>
+                    <td><input type="text" id="notes" required></td>
+                </tr>
+                <tr>
+                    <td><label for="medsos">Medsos :</label></td>
+                    <td><input type="text" id="medsos" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" onclick="validateform();">Submit</button>
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+        </from>
+    </article>
+     </section>
+
+     <hr />
+
+     <!-- Ini Footer Nav-->
+     <footer>
+        <section>
+            <article>
+                Created by shofwa
+            </article>
+         </section>
+
+      </footer>
+    
+
+
+    </main>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>

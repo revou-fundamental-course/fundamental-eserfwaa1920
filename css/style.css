@@ -1,1 +1,77 @@
 /* Ini CSS */
+
+main {
+    padding: 32px;
+}
+
+.body {
+    background-color:rgba(200, 107, 142, 1);
+  }
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+/* For Image icon */
+    background-image: url(../assets/../assets/logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.Banner-container {
+    height: 350px;
+    width:100%;
+    border: 1px solid;
+}
+
+.baneer-item {
+    background-image: url(../assets/1.jpg);
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+    text-align: center;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+    /* For Image icon */
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profil-1 {
+    background-image: url(../assets/instagramn.jpeg);
+}
+
+.profil-2 {
+    background-image: url(../assets/whatsappn.jpeg);
+}
+
+.profil-3 {
+    background-image: url(../assets/facebookn.png);
+}
+
+.profil-4 {
+    background-image: url(../assets/telegramn.jpeg);
+}
